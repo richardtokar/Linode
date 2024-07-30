@@ -4,8 +4,12 @@
     <title>Richard Tokar - Computer Technology Teacher</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Richard Tokar's portfolio showcasing experience and skills as a Computer Technology Teacher, including work history, education, and tech skills." />
-    <meta name="keywords" content="Richard Tokar, Computer Technology Teacher, IT, Networking, Cybersecurity, Education, Work Experience, Tech Skills, LinkedIn, GitHub" />
+    <meta
+      name="description"
+      content="Richard Tokar's portfolio showcasing experience and skills as a Computer Technology Teacher, including work history, education, and tech skills." />
+    <meta
+      name="keywords"
+      content="Richard Tokar, Computer Technology Teacher, IT, Networking, Cybersecurity, Education, Work Experience, Tech Skills, LinkedIn, GitHub" />
     <meta name="author" content="Richard Tokar" />
     <link rel="canonical" href="https://www.richardtokar.com" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -41,7 +45,7 @@
     <link
       href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAADAwMA//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEREAAAARAAAAAAAAAAEQAAAAAAAAABEAAAAAAAAAARAAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAABEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       rel="icon"
-      type="image/x-icon" 
+      type="image/x-icon"
       sizes="16x16 32x32" />
   </head>
   <body class="w3-light-grey">
@@ -170,11 +174,6 @@
             <div class="w3-container" itemscope itemtype="https://schema.org/EducationalOrganization">
               <h5 class="w3-opacity"><b itemprop="name">University at Albany</b></h5>
               <p itemprop="description">Bachelors</p>
-              <hr />
-            </div>
-            <div class="w3-container" itemscope itemtype="https://schema.org/EducationalOrganization">
-              <h5 class="w3-opacity"><b itemprop="name">NYS Department of Education</b></h5>
-              <p itemprop="description">Computer Technology 7-12 Teaching Credential</p>
               <hr />
             </div>
             <div class="w3-container" itemscope itemtype="https://schema.org/Organization">
