@@ -2,160 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OCM BOCES Student Websites | Web Development Projects</title>
-    <meta name="description" content="Explore student-developed websites from OCM BOCES, showcasing skills in HTML, CSS, and JavaScript. Hosted on a secure Linux server with IPv4 and IPv6 support." />
+    <meta
+      name="description"
+      content="Explore student-developed websites from OCM BOCES, showcasing skills in HTML, CSS, and JavaScript. Hosted on a secure Linux server with IPv4 and IPv6 support." />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon" sizes="16x16 32x32" />
-    <style>
-      .game-list {
-        text-align: center;
-      }
-      .game-list a {
-        display: inline-block;
-        text-decoration: none;
-        color: inherit;
-      }
-      .game-list img {
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <header style="position: relative">
-      <div class="w3-top" id="home">
-        <div class="w3-bar w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015">
-          <a
-            class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large"
-            href="javascript:void(0);"
-            onclick="myFunction()"
-            title="Toggle Navigation Menu">
-            <i class="fa fa-bars"></i>
-          </a>
-          <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black">Home</a>
-          <div>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">About</a>
-            <a href="#games" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Websites</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
-          </div>
-        </div>
-
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
-          <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
-          <a href="#games" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Websites</a>
-          <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
-        </div>
-      </div>
-    </header>
-
-    <section>
-      <div class="hero" id="about">
-        <div class="hero-description">
-          <div class="hero-text">
-            <h1 class="hero-title" style="margin-top: 80px">comptech.live</h1>
-            <p style="padding-left: 40px; padding-right: 40px; margin-top: 80px">
-              The websites were developed by OCM BOCES students using HTML, CSS, and JavaScript. Students leveraged
-              AI-generated code to enhance their functionality. They acquired domain names and configured DNS settings.
-              The websites are hosted on a Linux cloud server that supports both IPv4 and IPv6 protocols, ensuring
-              secure connections with TLS encryption.
-            </p>
-            <span class="w3-text-white social" style="margin-top: 50px">
-              <p>Follow our gaming reviews on YouTube</p>
-              <div class="w3-margin-top">
-                <a href="https://www.youtube.com/channel/UC8MtgiyVbXvXAHFi6BSoiIQ" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-youtube-play w3-hover-opacity icons" style="font-size: 36px"></i>
-                </a>
-              </div>
-            </span>
-          </div>
-        </div>
-      </div>
+    <section id="about" class="about">
+      <h1 class="about-title">comptech.live</h1>
+      <p class="about-text">
+        The websites were developed by OCM BOCES students using HTML and CSS. They utilized AI-generated code to enhance
+        functionality, acquired domain names, and configured DNS settings. The websites are hosted on a Linux cloud
+        server supporting both IPv4 and IPv6, ensuring secure connections with TLS encryption.
+      </p>
+     
     </section>
 
-    <main style="padding-bottom: 40px">
-      <h2 class="title" id="games" style="margin-top: 240px">List of Websites</h2>
-      <div class="games">
-        <div class="game-list">
-          <img src="images/website.svg" alt="student1.com website" style="width: 100px; height: 100px" />
-          <h3>student1.com</h3>
+    <main>
+      <section id="sites-section">
+        <h2 class="title" id="sites">List of Websites</h2>
+        <div class="sites">
+          <div class="site-list">
+            <img src="images/website.svg" alt="student1.com website" />
+            <h3>student1.com</h3>
+          </div>
+          <div class="site-list">
+            <img src="images/website.svg" alt="student2.com website" />
+            <h3>student2.com</h3>
+          </div>
+          <div class="site-list">
+            <img src="images/website.svg" alt="student3.com website" />
+            <h3>student3.com</h3>
+          </div>
+          <div class="site-list">
+            <a href="https://frontline.cafe/" target="_blank" rel="noopener noreferrer">
+              <img src="images/website.svg" alt="frontline.cafe website" />
+              <h3>frontline.cafe</h3>
+            </a>
+          </div>
+          <div class="site-list">
+            <a href="https://comptech.live/pages/archive/ocmboces.cloud/" target="_blank" rel="noopener noreferrer">
+              <img src="images/website.svg" alt="2023-24 archive website" />
+              <h3>2023-24 archive</h3>
+            </a>
+          </div>
+          <div class="site-list">
+            <a href="https://richardtokar.us" target="_blank" rel="noopener noreferrer">
+              <img src="images/website.svg" alt="teacher website" />
+              <h3>teacher</h3>
+            </a>
+          </div>
         </div>
+      </section>
+<!-- YouTube Section -->
+<section id="youtube-info" class="youtube-info">
+  <h4>Follow Our Gaming Reviews on YouTube</h4>
+  <a href="https://www.youtube.com/channel/UC8MtgiyVbXvXAHFi6BSoiIQ" target="_blank" rel="noopener noreferrer">
+    <span>Gaming.Comptech</span>
+    <i class="fa fa-youtube-play youtube-icon"></i>
+  </a>
+</section>
 
-        <div class="game-list">
-          <img src="images/website.svg" alt="student2.com website" style="width: 100px; height: 100px" />
-          <h3>student2.com</h3>
-        </div>
-        <div class="game-list">
-          <img src="images/website.svg" alt="student3.com website" style="width: 100px; height: 100px" />
-          <h3>student3.com</h3>
-        </div>
-        <div class="game-list">
-          <a href="https://frontline.cafe/" target="_blank" style="text-decoration: none; color: inherit" rel="noopener noreferrer">
-            <img src="images/website.svg" alt="frontline.cafe website" style="width: 100px; height: 100px" />
-            <h3>frontline.cafe</h3>
-          </a>
-        </div>
-        <div class="game-list">
-          <a
-            href="https://comptech.live/pages/archive/ocmboces.cloud/"
-            target="_blank"
-            style="text-decoration: none; color: inherit"
-            rel="noopener noreferrer">
-            <img src="images/website.svg" alt="2023-24 archive website" style="width: 100px; height: 100px" />
-            <h3>2023-24 archive</h3>
-          </a>
-        </div>
-        <div class="game-list">
-          <a href="https://richardtokar.us" target="_blank" style="text-decoration: none; color: inherit" rel="noopener noreferrer">
-            <img src="images/website.svg" alt="teacher website" style="width: 100px; height: 100px" />
-            <h3>teacher</h3>
-          </a>
-        </div>
-      </div>
 
-      <div>
-        <h2 class="title">Reach out to us</h2>
-        <div class="contact" id="contact" style="padding-bottom: 10px !important">
-          <div class="contact-list contact-address">
-            <h5>
-              <span><i class="fa fa-map-marker w3-xlarge w3-text-light-grey"></i></span>Address
-            </h5>
+<!-- Footer -->
+      <footer>
+        <h4>Contact Us</h4>
+        <div class="footer-content">
+          <div class="footer-item">
+            <h5><i class="fa fa-map-marker"></i> Address</h5>
             <p>OCM BOCES Cortland (McEvoy Campus)</p>
             <p>1710 NY-13</p>
             <p>Cortland, NY 13045</p>
           </div>
-          <div class="contact-list">
-            <h5>
-              <span><i class="fa fa-link w3-xlarge w3-text-light-grey"></i></span>OCM BOCES
-            </h5>
-            <a href="https://ocmboces.org" target="_blank" style="text-decoration: none; color: inherit" rel="noopener noreferrer">
-              https://ocmboces.org
-            </a>
+          <div class="footer-item">
+            <h5><i class="fa fa-link"></i> OCM BOCES</h5>
+            <a href="https://ocmboces.org" target="_blank" rel="noopener noreferrer">Learn More About OCM BOCES</a>
           </div>
-          <div class="contact-list">
-            <h5>
-              <span><i class="fa fa-phone w3-xlarge w3-text-light-grey"></i></span>Phone
-            </h5>
+
+          <div class="footer-item">
+            <h5><i class="fa fa-phone"></i> Phone</h5>
             <p>(607) 758-5100</p>
           </div>
         </div>
-      </div>
+      </footer>
     </main>
-
-    <script>
-      // Used to toggle the menu on small screens when clicking on the menu button
-      function myFunction() {
-        var x = document.getElementById("navDemo");
-        if (x.className.indexOf("w3-show") === -1) {
-          x.className += " w3-show";
-        } else {
-          x.className = x.className.replace(" w3-show", "");
-        }
-      }
-    </script>
   </body>
 </html>

@@ -30,9 +30,49 @@ body {
   margin-bottom: 20px;
 }
 
+.social {
+  margin-top: 20px;
+}
+
+.social p {
+  margin-bottom: 10px;
+  color: #fff; /* Make text white */
+}
+
+.social a {
+  color: red; /* Red for the YouTube icon */
+  font-size: 24px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.social a:hover {
+  color: #f00; /* Red on hover */
+}
+
+.social .youtube-icon {
+  font-size: 40px; /* Make the icon larger */
+  display: block;
+  margin: 0 auto; /* Center the icon */
+}
+
+/* Link text styling in the social section */
+.social a span {
+  color: #00f; /* Standard blue for the text */
+}
+
+.social a:hover span {
+  color: #f00; /* Red for text on hover */
+}
+
+.social a:active span {
+  color: #00a; /* Darker blue for text when clicked */
+}
+
 /* YouTube Section styles */
 .youtube-info {
-  background-color: #f00; /* Red background */
+  background-color: #000; /* Matches the background color of the site sections */
   color: #fff; /* White text */
   padding: 40px 20px;
   text-align: center;
@@ -41,7 +81,7 @@ body {
 .youtube-info h4 {
   margin-bottom: 15px;
   font-size: 2em; /* Larger font size for the heading */
-  color: #fff; /* White text */
+  color: orange; /* Use orange to match the design */
 }
 
 .youtube-info p {
@@ -53,23 +93,22 @@ body {
   color: #fff; /* White text for the link */
   text-decoration: none;
   font-size: 1.2em; /* Slightly larger font size for emphasis */
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .youtube-info a:hover {
-  color: #000; /* Black text on hover */
+  color: #f00; /* Red text on hover */
 }
 
 .youtube-info a:active {
-  color: #666; /* Darker gray text when clicked */
+  color: #00a; /* Darker blue text when clicked */
 }
 
 .youtube-info .youtube-icon {
   font-size: 40px; /* Consistent icon size */
-  margin-top: 10px; /* Space between text and icon */
+  margin-right: 10px; /* Space between icon and text */
 }
 
 .youtube-info span {
