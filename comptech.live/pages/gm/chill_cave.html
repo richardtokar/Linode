@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Cave</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('background.jpg'); /* Your background image */
+            background-size: cover; /* Cover the whole viewport */
+            color: white; /* Text color */
+            font-family: Arial, sans-serif; /* Font style */
+            text-align: center; /* Center text */
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        h1 {
+            font-size: 3em; /* Large heading */
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.5em; /* Larger paragraph text */
+        }
+
+        audio {
+            display: none; /* Hide the audio player */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Chill Cave</h1>
+        <p>Relax, unwind, and enjoy the soothing sounds of nature.</p>
+    </div>
+
+    <audio autoplay loop>
+        <source src="chill-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+</html>
