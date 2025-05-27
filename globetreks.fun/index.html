@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded YouTube Playlist</title>
+    <title>YouTube Playlist Muted Auto-Play</title>
 </head>
 <body>
-    <div style="text-align:center;">
-        <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/videoseries?list=PLafv6xFGRqZZMVfb9sd4KnIC_13X7aEWA&autoplay=1&loop=1&controls=1&mute=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-    </div>
+    <h1>Auto-Playing YouTube Playlist (Muted)</h1>
+    <p>The playlist below will attempt to auto-play silently. Browsers are more likely to allow muted autoplay.</p>
+    
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed?listType=playlist&list=PLafv6xFGRqZbF42663qcRNdf1r9dL2pmc&autoplay=1&mute=1" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
 </body>
 </html>
